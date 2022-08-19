@@ -1,9 +1,15 @@
 // Business Logic
 
-function convertNumber(number) {
-  let inputNumbers = [];
+function inputNum(number) {
+  let inputNumber = [];
   for (let i = 0; i <= number; i +=1) {
-    inputNumbers.push(i);
+    let translate = convertNum(i);
+    inputNumber.push(translate);
   }
-  return inputNumbers;
+  return inputNumber;
+}
+
+function convertNum(number) {
+  let numString = number.toString();
+  return numString;
 }
