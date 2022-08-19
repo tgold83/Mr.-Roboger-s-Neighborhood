@@ -18,7 +18,7 @@ Test: "It should convert 2 in user's inputted number into 'Boop!'"
 Code: convertNum(2);
 Expected Output: "Boop!"
 
-Test: "It should convert 3 in user's inputted number into 'Beep!'"
+Test: "It should convert 3 in user's inputted number into 'Won't you be my neighbor?'"
 Code: convertNum(3);
 Expected Output: "Won't you be my neighbor?"
 
@@ -30,6 +30,6 @@ Test: "It should return 'Boop!' if any 2 is in user input"
 Code: convertNum(20);
 Expected Output: "Boop!"
 
-<!-- Test: "It should convert any 3 in user's inputted number into 'Beep!'"
-Code: convertNum(3);
-Expected Output: "Won't you be my neighbor?" -->
+Test: "It should return 'Won't you be my neighbor' if any 3 is in user input"
+Code: convertNum(30);
+Expected Output: "Won't you be my neighbor?"

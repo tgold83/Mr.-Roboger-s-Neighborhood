@@ -15,7 +15,7 @@ function convertNum(number) {
     return "Beep!"
   } else if (numString.includes("2")) {
     return "Boop!"
-  }else if (numString === "3") {
+  } else if (numString.includes("3")) {
     return "Won't you be my neighbor?"
   }
   return numString;
