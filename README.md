@@ -33,3 +33,11 @@ Expected Output: "Boop!"
 Test: "It should return 'Won't you be my neighbor' if any 3 is in user input"
 Code: convertNum(30);
 Expected Output: "Won't you be my neighbor?"
+
+Test: "It should return 'Won't you be my neighbor?' if any 3 is in user input regardless of 1 or 2"
+Code: convertNum(312);
+Expected Output: "Won't you be my neighbor?"
+
+Test: "It should return 'Boop!' if any 2 is in user input regardless of 1"
+Code: convertNum(212);
+Expected Output: "Boop!"

@@ -11,13 +11,14 @@ function inputNum(number) {
 
 function convertNum(number) {
   let numString = number.toString();
-  if (numString.includes("1")) {
-    return "Beep!"
+  if (numString.includes("3")) {
+    return "Won't you be my neighbor?"
   } else if (numString.includes("2")) {
     return "Boop!"
-  } else if (numString.includes("3")) {
-    return "Won't you be my neighbor?"
+  } else if (numString.includes("1")) {
+    return "Beep!"
+  } else {
+    return numString;
   }
-  return numString;
 }
 
