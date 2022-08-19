@@ -6,7 +6,7 @@ function inputNum(number) {
     let translate = convertNum(i);
     inputNumber.push(translate);
   }
-  return inputNumber;
+  return inputNumber.join(", ");
 }
 
 function convertNum(number) {
