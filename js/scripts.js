@@ -22,3 +22,21 @@ function convertNum(number) {
   }
 }
 
+// UI Logic
+
+window.onload = function() {
+  document.querySelector("form").onsubmit = inputNum(number);
+  inputNum.preventDefault();
+}
+
+// function hideResults(onsubmit) {
+//   document.getElementById("inputNum").setAttribute("class", "hidden");
+// }
+
+// window.onload = function() {
+//   hideResults();
+//   document.querySelector("form").onsubmit = function(inputNum) {
+//     inputNum.preventDefault();
+//     hideResults();
+//   }
+// }
