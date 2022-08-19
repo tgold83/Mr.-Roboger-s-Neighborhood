@@ -18,6 +18,6 @@ Test: "It should convert any 2 in user's inputted number into 'Boop!'"
 Code: convertNum(2);
 Expected Output: "Boop!"
 
-<!-- Test: "It should convert any 3 in user's inputted number into 'Beep!'"
+Test: "It should convert any 3 in user's inputted number into 'Beep!'"
 Code: convertNum(3);
-Expected Output: "Won't you be my neighbor?" -->
+Expected Output: "Won't you be my neighbor?"

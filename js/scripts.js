@@ -15,6 +15,8 @@ function convertNum(number) {
     return "Beep!"
   } else if (numString === "2") {
     return "Boop!"
+  }else if (numString === "3") {
+    return "Won't you be my neighbor?"
   }
   return numString;
 }
