@@ -28,7 +28,7 @@ window.onload = function() {
   let form = document.querySelector("form");
   form.onsubmit = function(event) {
     event.preventDefault();
-    const userInput = document.getElementById("userInput").value;
-    document.getElementById("results").append(inputNum(userInput));
+    let userInput = document.getElementById("userInput").value;
+    document.getElementById("results").innerText = inputNum(userInput);
   }
 }
