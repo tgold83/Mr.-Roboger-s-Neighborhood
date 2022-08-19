@@ -26,9 +26,9 @@ Test: "It should return 'Beep!' if any 1 is in users input"
 Code: convertNum(11);
 Expected Output: "Beep!"
 
-<!-- Test: "It should convert any 2 in user's inputted number into 'Boop!'"
-Code: convertNum(2);
-Expected Output: "Boop!" -->
+Test: "It should return 'Boop!' if any 2 is in user input"
+Code: convertNum(20);
+Expected Output: "Boop!"
 
 <!-- Test: "It should convert any 3 in user's inputted number into 'Beep!'"
 Code: convertNum(3);
