@@ -25,18 +25,10 @@ function convertNum(number) {
 // UI Logic
 
 window.onload = function() {
-  document.querySelector("form").onsubmit = inputNum(number);
-  inputNum.preventDefault();
+  let form = document.querySelector("form");
+  form.onsubmit = function(event) {
+    event.preventDefault();
+    const userInput = document.getElementById("userInput").value;
+    document.getElementById("results").append(inputNum(userInput));
+  }
 }
-
-// function hideResults(onsubmit) {
-//   document.getElementById("inputNum").setAttribute("class", "hidden");
-// }
-
-// window.onload = function() {
-//   hideResults();
-//   document.querySelector("form").onsubmit = function(inputNum) {
-//     inputNum.preventDefault();
-//     hideResults();
-//   }
-// }
