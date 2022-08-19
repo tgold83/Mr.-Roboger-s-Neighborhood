@@ -11,7 +11,7 @@ function inputNum(number) {
 
 function convertNum(number) {
   let numString = number.toString();
-  if (numString === "1") {
+  if (numString.includes("1")) {
     return "Beep!"
   } else if (numString === "2") {
     return "Boop!"

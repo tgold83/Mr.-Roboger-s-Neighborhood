@@ -10,14 +10,26 @@ Test: "It should convert numbers to string."
 Code: convertNum(1)
 Expected Output: "1"
 
-Test: "It should convert any 1 in user's inputted number into 'Beep!'"
+Test: "It should convert 1 in user's inputted number into 'Beep!'"
 Code: convertNum(1);
 Expected Output: "Beep!"
 
-Test: "It should convert any 2 in user's inputted number into 'Boop!'"
+Test: "It should convert 2 in user's inputted number into 'Boop!'"
 Code: convertNum(2);
 Expected Output: "Boop!"
 
-Test: "It should convert any 3 in user's inputted number into 'Beep!'"
+Test: "It should convert 3 in user's inputted number into 'Beep!'"
 Code: convertNum(3);
 Expected Output: "Won't you be my neighbor?"
+
+Test: "It should return 'Beep!' if any 1 is in users input"
+Code: convertNum(11);
+Expected Output: "Beep!"
+
+<!-- Test: "It should convert any 2 in user's inputted number into 'Boop!'"
+Code: convertNum(2);
+Expected Output: "Boop!" -->
+
+<!-- Test: "It should convert any 3 in user's inputted number into 'Beep!'"
+Code: convertNum(3);
+Expected Output: "Won't you be my neighbor?" -->
