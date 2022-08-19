@@ -1,3 +1,6 @@
-function beepBoop(number) {
-  return number.length
+// Business Logic
+
+function convertNumber(number) {
+  return number.length -1;
 }
+
