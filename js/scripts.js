@@ -1,6 +1,9 @@
 // Business Logic
 
 function convertNumber(number) {
-  return number.length -1;
+  let inputNumbers = [];
+  for (let i = 0; i <= number; i +=1) {
+    inputNumbers.push(i);
+  }
+  return inputNumbers;
 }
-
