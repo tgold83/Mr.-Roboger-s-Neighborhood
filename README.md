@@ -30,11 +30,15 @@ _This browser application allows users to input any number and get a return that
 
 ## Tests
 
-Describe: inputNumber()
+Describe: inputNum()
 
 Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: inputNumber(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test: "It should return an array that converts all 1s to 'Beep!', all 2s to 'Boop!', and all 3s to 'Won't you be my neighbor?'"
+Code: inputNumber(5);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]
 
 Describe convertNum()
 
@@ -73,6 +77,7 @@ Expected Output: "Won't you be my neighbor?"
 Test: "It should return 'Boop!' if any 2 is in user input regardless of 1"
 Code: convertNum(212);
 Expected Output: "Boop!"
+
 
 ## License
 
